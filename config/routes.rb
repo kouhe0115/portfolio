@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get 'index/about' => 'index#about'
   get 'index/folio' => 'index#folio'
   get 'index/contact' => 'index#contact'
-  # get 'index/test' => 'index#test'
+  get 'index/test' => 'index#test'
 
 
 
