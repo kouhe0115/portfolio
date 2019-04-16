@@ -1,0 +1,405 @@
+@charset "UTF-8";
+/* 共通部分
+------------------------------- */
+html {
+  font-size: 100%; }
+
+body {
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.7;
+  color: #432; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%; }
+
+.logo {
+  margin-top: 20px;
+  height: 30%;
+  width: 30%; }
+
+/* ------header------ */
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%; }
+
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat; }
+
+#home {
+  background-image: url("contact-bg.jpg"), linear-gradient(#c9ffbf, #ffafbd);
+  background-blend-mode: luminosity;
+  min-height: 100vh; }
+
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none; }
+  .main-nav li {
+    margin-left: 36px; }
+  .main-nav a {
+    color: #432; }
+    .main-nav a:hover {
+      color: #0bd;
+      transition: 1.0s; }
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  text-transform: none; }
+
+.home-content {
+  text-align: center;
+  margin-top: 10%; }
+  .home-content .page-title {
+    font-size: 5rem;
+    font-family: 'Philosopher', Serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 20px; }
+    .home-content .page-title span .char1 {
+      color: #0bd; }
+  .home-content .button {
+    font-size: 1.375rem;
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px; }
+    .home-content .button:hover {
+      background: #0090aa; }
+
+.ticker {
+  margin: 0 auto;
+  padding: 10px;
+  width: 600px;
+  text-align: center;
+  position: relative;
+  overflow: hidden; }
+
+.ticker ul {
+  width: 100%;
+  position: relative;
+  top: -5px; }
+
+.ticker ul li {
+  width: 100%;
+  display: none; }
+
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 2.5rem; }
+
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px; }
+    .main-nav li {
+      margin: 0 20px; }
+
+  .home-content {
+    margin-top: 20%; }
+
+  .page-header {
+    flex-direction: column;
+    align-items: center; } }
+#news {
+  background-image: url("about_bg2.jpg");
+  background-position-y: -200px;
+  height: 270px;
+  margin-bottom: 40px;
+  text-align: center; }
+  #news .page-title {
+    font-size: 5rem;
+    font-family: 'Philosopher', Serif;
+    text-transform: uppercase;
+    font-weight: normal; }
+
+.news-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px; }
+  .news-content article {
+    width: 60%; }
+  .news-content p {
+    margin-bottom: 1rem; }
+
+aside {
+  width: 22%; }
+  aside .sub-title {
+    font-size: 1.357rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+    text-align: center; }
+  aside .sub-menu {
+    margin-bottom: 60px;
+    list-style: none; }
+    aside .sub-menu li {
+      border-bottom: 1px #ddd solid; }
+      aside .sub-menu li a {
+        color: #432;
+        padding: 10px;
+        display: block; }
+        aside .sub-menu li a:hover {
+          color: #0bd; }
+  aside p {
+    padding: 12px 10px;
+    text-align: center; }
+
+footer {
+  background: #432;
+  text-align: center;
+  padding: 26px 0;
+  margin-top: 50px; }
+  footer p {
+    color: #fff;
+    font-size: 0.875rem;
+    text-align: center; }
+
+.prof-history {
+  font-family: 'Philosopher', Serif;
+  font-size: 1rem; }
+  .prof-history .prof-title {
+    margin-bottom: 20px;
+    letter-spacing: 0.1em; }
+    .prof-history .prof-title span {
+      color: #0bd;
+      font-size: 40px; }
+
+.sub-title {
+  letter-spacing: 0.1em; }
+
+.prof-text {
+  margin-bottom: 20px; }
+
+.tw_img {
+  height: 30%;
+  width: 30%; }
+
+@media (max-width: 600px) {
+  .page-title {
+    margin-top: 30px; }
+
+  .news-content {
+    flex-direction: column; }
+    .news-content article,
+    .news-content aside {
+      width: 100%; }
+
+  article .post-info {
+    margin-bottom: 30px; }
+    article .post-info .post-title {
+      font-size: 1.375rem;
+      margin-left: 80px; }
+    article .post-info .post-date {
+      width: 70%;
+      height: 70px;
+      font-size: 1rem; }
+      article .post-info .post-date span {
+        font-size: 0.875rem;
+        padding-top: 2px; }
+    article .post-info .post-cat {
+      font-size: 0.875rem;
+      margin-top: 10px;
+      margin-left: 80px; } }
+#menu {
+  background-image: url("folio_bg.jpg");
+  text-align: center;
+  min-height: 100vh; }
+
+.menu-content {
+  max-width: 560px;
+  margin-top: 10%;
+  padding-bottom: 50px; }
+
+.page-title {
+  font-size: 5rem;
+  font-family: 'Philosopher', Serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center; }
+  .page-title p {
+    font-size: 1.125rem;
+    margin: 10px 0 0; }
+
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 6%;
+  box-sizing: border-box;
+  padding-bottom: 80px; }
+  .grid a:hover, .grid a:visited {
+    color: black; }
+  .grid .big-box {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3; }
+    .grid .big-box img {
+      height: 94%;
+      width: 100%;
+      object-fit: cover; }
+  .grid .item {
+    overflow: hidden; }
+    .grid .item img {
+      transition-duration: 0.5s;
+      display: block;
+      overflow: hidden; }
+      .grid .item img:hover {
+        transform: scale(1.03);
+        transition-duration: 0.5s;
+        overflow: hidden; }
+
+@media (max-width: 600px) {
+  .menu-content {
+    margin-top: 20%; }
+
+  .grid .big-box {
+    grid-column: auto;
+    grid-row: auto; }
+    .grid .big-box img {
+      height: 100%; } }
+#contact {
+  background-image: url("contact-bg.jpg");
+  min-height: 100vh; }
+
+.sub-title {
+  font-size: 1.357rem;
+  padding: 0 8px 8px;
+  border-bottom: 2px #0bd solid;
+  font-weight: normal; }
+
+form div {
+  margin-bottom: 14px; }
+  form div .label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block; }
+  form div .input[type="text"],
+  form div .input[type="email"],
+  form div .textarea {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem; }
+  form div .input1,
+  form div .input1,
+  form div .textarea {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem; }
+  form div .input1,
+  form div .input1 {
+    width: 100%;
+    max-width: 240px; }
+  form div .input[type="text"],
+  form div .input[type="email"] {
+    width: 100%;
+    max-width: 240px; }
+  form div .textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 6rem; }
+  form div .input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1; }
+
+.button {
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px; }
+  .button:hover {
+    background: #0090aa; }
+
+#contact {
+  background-image: url("contact-bg.jpg");
+  min-height: 100vh; }
+
+.sub-title {
+  font-size: 1.357rem;
+  padding: 0 8px 8px;
+  border-bottom: 2px #0bd solid;
+  font-weight: normal; }
+
+form div {
+  margin-bottom: 14px; }
+  form div label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block; }
+  form div input[type="text"],
+  form div input[type="email"],
+  form div textarea {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem; }
+  form div input[type="text"],
+  form div input[type="email"] {
+    width: 100%;
+    max-width: 240px; }
+  form div textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 6rem; }
+  form div input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1; }
+
+.button {
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px; }
+  .button:hover {
+    background: #0090aa; }
+
+.send {
+  font-size: 1.375rem;
+  background: rgba(255, 255, 255, 0.5);
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
+  width: 30%;
+  margin: 30px auto 0; }
+  .send a:visited {
+    text-decoration: none;
+    color: #0bd; }
+
+footer {
+  background: #432;
+  text-align: center;
+  padding: 26px 0;
+  margin-top: 0; }
+  footer p {
+    color: #fff;
+    font-size: 0.875rem; }
+
+.newTitle {
+  text-align: center;
+  padding-top: 30px; }
+
+@media (max-width: 600px) {
+  #contact .page-title {
+    margin-top: 40px; }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    max-width: 100%; } }
+
+/*# sourceMappingURL=application.css.map */

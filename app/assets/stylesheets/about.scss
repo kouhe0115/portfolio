@@ -1,0 +1,159 @@
+#news {
+  background-image: url("about_bg2.jpg");
+  background-position-y: -200px;
+  height: 270px;
+  margin-bottom: 40px;
+  text-align: center;
+
+  .page-title {
+    font-size: 5rem;
+    font-family: 'Philosopher', Serif;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+}
+
+.news-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+  article {
+    width: 60%;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  aside {
+    width: 22%;
+
+    .sub-title {
+      font-size: 1.357rem;
+      padding: 0 8px 8px;
+      border-bottom: 2px #0bd solid;
+      font-weight: normal;
+      text-align: center;
+    }
+
+    .sub-menu {
+      margin-bottom: 60px;
+      list-style: none;
+
+      li {
+        border-bottom: 1px #ddd solid;
+
+        a {
+          color: #432;
+          padding: 10px;
+          display: block;
+
+          &:hover {
+            color: #0bd;
+          }
+        }
+      }
+    }
+
+
+    p {
+      padding: 12px 10px;
+      text-align: center;
+    }
+  }
+
+
+footer {
+  background: #432;
+  text-align: center;
+  padding: 26px 0;
+  margin-top: 50px;
+
+  & p {
+    color: #fff;
+    font-size: 0.875rem;
+    text-align: center;
+
+  }
+}
+
+
+.prof-history{
+  font-family: 'Philosopher', Serif;
+  font-size: 1rem;
+  .prof-title{
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+    & span{
+      color: #0bd;
+      font-size: 40px;
+    }
+  }
+}
+
+.sub-title{
+  letter-spacing: 0.1em;
+}
+
+//.prof-title ::before{
+//  left: 10px;
+//  box-sizing: border-box;
+//  width: 10px;
+//  height: 10px;
+//  border: 10px solid transparent;
+//  border-left: 10px solid #0bd;
+//}
+
+.prof-text{
+  margin-bottom: 20px;
+}
+
+.tw_img{
+  height: 30%;
+  width: 30%;
+}
+
+
+//-----モバイル版------
+@media (max-width: 600px) {
+
+  .page-title {
+    margin-top: 30px;
+  }
+  .news-content {
+    flex-direction: column;
+
+    article,
+    aside {
+      width: 100%;
+    }
+  }
+  article {
+    .post-info {
+      margin-bottom: 30px;
+
+      .post-title {
+        font-size: 1.375rem;
+        margin-left: 80px;
+      }
+
+      .post-date {
+        width: 70%;
+        height: 70px;
+        font-size: 1rem;
+
+        & span {
+          font-size: 0.875rem;
+          padding-top: 2px;
+        }
+      }
+
+      .post-cat {
+        font-size: 0.875rem;
+        margin-top: 10px;
+        margin-left: 80px;
+      }
+    }
+  }
+}

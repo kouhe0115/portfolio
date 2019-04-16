@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta description="#">
+  <meta property="og:url" content="#">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portfolio_kou">
+  <meta property="og:description" content="#">
+  <meta name="twitter:site" content="@tips_note">
+  <meta name="twitter:title" content="ENDO　仕様書">
+  <meta name="twitter:description" content="#">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+  <%= favicon_link_tag('favicon.ico') %>
+  <title>ENDO　仕様書</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+<%= yield %>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+
+<script>
+  $(function () {
+    Barba.Pjax.init();
+    Barba.Prefetch.init();
+  });
+
+  var FadeTransition = Barba.BaseTransition.extend({
+    start: function () {
+
+      Promise
+        .all([this.newContainerLoading, this.fadeOut()])
+        .then(this.fadeIn.bind(this));
+    },
+
+    fadeOut: function () {
+      return $(this.oldContainer).animate({opacity: 0}).promise();
+    },
+
+    fadeIn: function () {
+
+      var _this = this;
+      var $el = $(this.newContainer);
+
+      $(this.oldContainer).hide();
+
+      $el.css({
+        visibility: 'visible',
+        opacity: 0
+      });
+
+      $el.animate({opacity: 1}, 400, function () {
+        _this.done();
+      });
+    }
+
+  });
+
+  Barba.Pjax.getTransition = function () {
+    return FadeTransition;
+  };
+</script>
+</body>
+</html>

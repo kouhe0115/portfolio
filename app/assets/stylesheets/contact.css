@@ -1,0 +1,108 @@
+#contact {
+  min-height: 100vh; }
+
+.sub-title {
+  font-size: 1.357rem;
+  padding: 0 8px 8px;
+  border-bottom: 2px #0bd solid;
+  font-weight: normal; }
+
+form div {
+  margin-bottom: 14px; }
+  form div label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block; }
+  form div input[type="text"],
+  form div input[type="email"],
+  form div textarea {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem; }
+  form div input[type="text"],
+  form div input[type="email"] {
+    width: 100%;
+    max-width: 240px; }
+  form div textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 6rem; }
+  form div input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1; }
+
+#location {
+  padding: 4% 0; }
+  #location .wrapper {
+    display: flex;
+    justify-content: space-between; }
+  #location .location-info {
+    width: 22%; }
+    #location .location-info p {
+      padding: 12px 10px; }
+  #location .location-map {
+    width: 74%; }
+    #location .location-map iframe {
+      width: 100%; }
+
+.button {
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px; }
+  .button:hover {
+    background: #0090aa; }
+
+#sns {
+  background: #FAF7F0;
+  padding: 4% 0; }
+
+#sns .wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+#sns .sub-title {
+  margin-bottom: 30px; }
+
+.sns-box {
+  width: 30%; }
+
+footer {
+  background: #432;
+  text-align: center;
+  padding: 26px 0;
+  margin-top: 0; }
+  footer p {
+    color: #fff;
+    font-size: 0.875rem; }
+
+@media (max-width: 600px) {
+  #contact .page-title {
+    margin-top: 40px; }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    max-width: 100%; }
+
+  #location .wrapper {
+    flex-direction: column; }
+    #location .wrapper .location-info {
+      width: 100%; }
+    #location .wrapper .location-map {
+      width: 100%; }
+
+  #sns .wrapper {
+    flex-direction: column; }
+
+  .sns-box {
+    width: 100%; }
+
+  .sns-box {
+    margin-bottom: 30px; } }
+
+/*# sourceMappingURL=contact.css.mapp */

@@ -1,0 +1,35 @@
+<main id="barba-wrapper">
+  <div class="barba-container">
+    <div id="contact">
+      <%= render 'index/header' %>
+      <% @page_title = 'お問い合わせ' %>
+      <div class="wrapper">
+        <h2 class="page-title">Contact</h2>
+        <div class="newContent">
+          <%= form_for @inquiry, :url => inquiry_confirm_path do |f| %>
+            <% if @inquiry.errors.any? %>
+              <div class="alert alert-danger" role="alert">
+                <strong>入力内容にエラーがあります</strong>
+                <ul>
+                  <% @inquiry.errors.each do |attr, msg| %>
+                    <li><%= msg %></li>
+                  <% end %>
+                </ul>
+              </div>
+            <% end %>
+            <div class="form">
+              <div class="label">名前<span class="text-danger">（必須）</span></div>
+              <div class="input"><%= f.text_field :name, class: 'input' %></div>
+              <div class="label">メールアドレス<span class="text-danger">（必須）</span></div>
+              <div class="input"><%= f.text_field :email, class: 'input' %></div>
+              <div class="label">お問い合わせ内容</div>
+              <div class="ind"><%= f.text_area :message, class: 'textarea' %></div>
+            </div>
+            <%= f.submit '確認', class: 'button' %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</main>

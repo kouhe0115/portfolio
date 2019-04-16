@@ -1,0 +1,88 @@
+//#menu{
+//  background-image: linear-gradient(#ffafbd,#c9ffbf);
+//}
+
+#menu {
+  background-image: url("folio_bg.jpg");
+  text-align: center;
+  min-height: 100vh;
+}
+
+.menu-content {
+  max-width: 560px;
+  margin-top: 10%;
+  padding-bottom: 50px;
+}
+
+.page-title {
+  font-size: 5rem;
+  font-family: 'Philosopher', Serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+
+  & p {
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+  }
+}
+
+
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 6%;
+  //margin-bottom: 50px;
+  box-sizing: border-box;
+  padding-bottom: 80px;
+
+  a:hover, a:visited {
+    color: black;
+  }
+
+  .big-box {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+
+    & img {
+      height: 94%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .item {
+    overflow: hidden;
+
+    & img {
+      transition-duration: 0.5s;
+      display: block;
+      overflow: hidden;
+
+      &:hover {
+        transform: scale(1.03);
+        transition-duration: 0.5s;
+        overflow: hidden;
+      }
+    }
+  }
+
+}
+
+//----Mobile----
+@media (max-width: 600px) {
+  .menu-content {
+    margin-top: 20%;
+  }
+  .grid {
+    .big-box {
+      grid-column: auto;
+      grid-row: auto;
+
+      & img {
+        height: 100%;
+      }
+    }
+  }
+}

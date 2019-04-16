@@ -1,0 +1,28 @@
+<main id="barba-wrapper">
+  <div class="barba-container">
+    <div id="contact" class="big-bg">
+      <%= render 'header' %>
+      <div class="wrapper">
+        <h2 class="page-title">Contact</h2>
+        <form action="#">
+          <div>
+            <label for="name">お名前</label>
+            <input type="text" id="name" name="your-name">
+          </div>
+
+          <div>
+            <label for="email">メールアドレス</label>
+            <input type="email" id="email" name="your-mail">
+          </div>
+
+          <div>
+            <label for="message">メッセージ</label>
+            <textarea name="your-message" id="message"></textarea>
+          </div>
+
+          <input type="submit" class="button" value="送信">
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
