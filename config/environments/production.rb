@@ -84,13 +84,13 @@ Rails.application.configure do
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
 
   config.action_mailer.delivery_method     = :smtp
-  config.action_mailer.default_url_options = {host: 'vainsky.kou@gmail.com'}
+  config.action_mailer.default_url_options = {host: 'appname.herokuapp.com'}
   config.action_mailer.perform_deliveries  = true
   config.action_mailer.smtp_settings       = {
     user_name:            ENV['SENDGRID_USERNAME'],
     password:             ENV['SENDGRID_PASSWORD'],
     domain:               'herokuapp.com',
-    address:              'smtp.gmail.com',
+    address:              'smtp.sendgrid.net',
     port:                 587,
     authentication:       :plain,
     enable_starttls_auto: true
