@@ -1,6 +1,6 @@
 class InquiryMailer < ActionMailer::Base
   # これ入れないと送れいない。
-  default from: "vainsky.kou@gamil"
+  default from: "vainsky.kou@gamil.com"
   # default to: "送信先"
   # mail(to: @inquiry.email, を入れたのでいらないかも。
 
