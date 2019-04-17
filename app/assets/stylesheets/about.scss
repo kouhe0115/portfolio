@@ -118,6 +118,9 @@ footer {
 //-----モバイル版------
 @media (max-width: 600px) {
 
+  #news{
+    background-position-y: 0px;
+  }
   .page-title {
     margin: 30px auto 0px;
   }

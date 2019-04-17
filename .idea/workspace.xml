@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2df715f5-6816-4f57-bd9d-5100f7f9c03b" name="Default Changelist" comment="" />
+    <list default="true" id="2df715f5-6816-4f57-bd9d-5100f7f9c03b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.map" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -34,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/index/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="73" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="73" />
+            <state relative-caret-position="150">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -58,11 +62,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1115">
-              <caret line="126" column="19" lean-forward="true" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+            <state relative-caret-position="621">
+              <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/about.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -70,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/index/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="135">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -135,11 +148,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/contact.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/folio.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/app/views/index/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/tests.js" />
         <option value="$PROJECT_DIR$/app/views/index/test.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/move.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/about.scss" />
         <option value="$PROJECT_DIR$/app/views/index/folio.html.erb" />
         <option value="$PROJECT_DIR$/app/views/index/about.html.erb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
@@ -152,7 +163,9 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/index/index.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/views/index/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/index.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/about.scss" />
       </list>
     </option>
   </component>
@@ -405,12 +418,12 @@
       <workItem from="1554961759167" duration="6130000" />
       <workItem from="1554975110190" duration="6886000" />
       <workItem from="1555033265420" duration="48793000" />
-      <workItem from="1555335320521" duration="16281000" />
+      <workItem from="1555335320521" duration="16567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78090000" />
+    <option name="totallyTimeSpent" value="78376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -587,13 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index/folio.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="603">
@@ -726,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -747,17 +746,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="73" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="73" />
+        <state relative-caret-position="150">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1115">
-          <caret line="126" column="19" lean-forward="true" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+        <state relative-caret-position="621">
+          <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
         </state>
       </provider>
     </entry>

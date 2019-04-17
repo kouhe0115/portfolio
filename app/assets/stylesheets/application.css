@@ -112,7 +112,7 @@ img {
     margin: auto; }
 
   .logo_title {
-    margin: 10px auto; } }
+    text-align: center; } }
 #news {
   background-image: url("about_bg2.jpg");
   background-position-y: -200px;
@@ -188,6 +188,9 @@ footer {
   width: 30%; }
 
 @media (max-width: 600px) {
+  #news {
+    background-position-y: 0px; }
+
   .page-title {
     margin: 30px auto 0px; }
 
