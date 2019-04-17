@@ -71,5 +71,3 @@ Rails.application.configure do
   }
 end
 
- # inquiry = Inquiry.new(name: "侍 太郎", message: "問い合わせメッセージ")
-# InquiryMailer.send_mail(inquiry).deliver_now
