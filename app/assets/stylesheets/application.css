@@ -111,8 +111,8 @@ img {
   .ticker {
     margin: auto; }
 
-  .logo {
-    margin: 0 auto; } }
+  .logo_title {
+    margin: 10px auto; } }
 #news {
   background-image: url("about_bg2.jpg");
   background-position-y: -200px;
@@ -189,7 +189,7 @@ footer {
 
 @media (max-width: 600px) {
   .page-title {
-    margin-top: 30px; }
+    margin: 30px auto 0px; }
 
   .news-content {
     flex-direction: column; }

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2df715f5-6816-4f57-bd9d-5100f7f9c03b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/.sass-cache/cbac13e533f1e56590ca66b6ce4a014283d5fb01/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/.sass-cache/cbac13e533f1e56590ca66b6ce4a014283d5fb01/index.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-    </list>
+    <list default="true" id="2df715f5-6816-4f57-bd9d-5100f7f9c03b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -68,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+            <state relative-caret-position="1115">
+              <caret line="126" column="19" lean-forward="true" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -412,12 +405,12 @@
       <workItem from="1554961759167" duration="6130000" />
       <workItem from="1554975110190" duration="6886000" />
       <workItem from="1555033265420" duration="48793000" />
-      <workItem from="1555335320521" duration="16055000" />
+      <workItem from="1555335320521" duration="16281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77864000" />
+    <option name="totallyTimeSpent" value="78090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -763,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+        <state relative-caret-position="1115">
+          <caret line="126" column="19" lean-forward="true" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
         </state>
       </provider>
     </entry>
