@@ -10,6 +10,7 @@
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
+
 }
 
 #home {
@@ -17,6 +18,8 @@
   //background-images: linear-gradient(#c9ffbf, #ffafbd);
   background-blend-mode: luminosity;
   min-height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .main-nav {
