@@ -190,6 +190,13 @@ footer {
   height: 30%;
   width: 30%; }
 
+.fb_img {
+  height: 30%;
+  width: 30%; }
+
+.fb-share-button {
+  margin: 0 auto; }
+
 @media (max-width: 600px) {
   #news {
     background-position-y: 0px; }
