@@ -4,7 +4,11 @@
     <ul class="main-nav">
       <li><%= link_to 'Profile', index_about_path %></li>
       <li><%= link_to 'PortFolio', index_folio_path %></li>
-      <li><%= link_to 'Contact', inquiry_path %></li>
+      <li><div class="#"><a href="mailto:vainsky.kou@gmail.com?subject=サイトよりの問い合わせ&amp;body=サイトよりの問い合わせ" class="#">
+        <div class="button-text">Contact <span class="button-text-arrow"></span></div>
+      </a></div>
+
+<!--      <li><%#= link_to 'Contact', inquiry_path %></li>-->
 <!--      <li><%#= link_to 'Contact', index_contact_path %></li>-->
     </ul>
   </nav>
